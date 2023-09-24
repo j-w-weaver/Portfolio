@@ -1,0 +1,447 @@
+<!-- 
+  Hello 😊.
+
+  This template is designed and developed by Nisar Hassan Naqvi
+  for anyone to use for free or customize the way they like.
+
+  Github Repo: https://github.com/nisarhassan12/portfolio-template/
+  My Website: https://nisar.dev
+
+  For business & inquires, contact me => syednisarhassan12@gmail.com
+-->
+
+<!--\
+  Follow the instructions written in comments to create your stunning portfolio
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+    <!-- Put your site title here -->
+    <title>John Weaver | Software Developer</title>
+
+    <meta name="description" content="Add small description of yourslef." />
+    <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+    <meta
+      name="keywords"
+      content="Put your name, skills and some coding keywords"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <!-- ***** Header ***** -->
+
+    <header class="header" role="banner" id="top">
+      <div class="row">
+        <nav class="nav" role="navigation">
+          <ul class="nav__items">
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__text-box row">
+        <div class="header__text">
+          <h1 class="heading-primary">
+            <!-- Replace the following name with your name -->
+            <span>John Weaver</span>
+          </h1>
+          <!-- Put a small paragraph about yourself -->
+          <p>Software Developer</p>
+          <a href="#contact" class="btn btn--pink">Let's get in touch</a>
+        </div>
+      </div>
+    </header>
+
+    <main role="main">
+      <!-- ***** Work ***** -->
+
+      <section class="work" id="work">
+        <div class="row">
+          <h2>Projects</h2>
+          <div class="work__boxes">
+            <!-- Each div with the work__box class is a project. -->
+            <div class="work__box">
+              <div class="work__text">
+                <h3>EatPrayGarden Blog</h3>
+                <p>
+                  As a personal project for my wife, EatPrayGarden is largely a
+                  lifestyle blog with a focus on healthy living habits. This
+                  site was written in C# as an ASP.Net MVC web application. I
+                  deploy to Azure for hosting and also migrated to their cloud
+                  for my databases within the project.
+                </p>
+                <ul class="work__list">
+                  <li>ASP.Net</li>
+                  <li>Web API</li>
+                  <li>Entity Framework</li>
+                  <li>MSSQL Server</li>
+                  <li>Azure</li>
+                  <li>C#</li>
+                  <li>Javascript</li>
+                  <li>Bootstrap</li>
+                </ul>
+
+                <div class="work__links">
+                  <a
+                    href="https://eatpraygarden.com/"
+                    target="_blank"
+                    class="link__text"
+                  >
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <a
+                    href="https://github.com/j-w-weaver/EatPrayGarden"
+                    title="View Source Code"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/github.svg"
+                      class="work__code"
+                      alt="GitHub"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="./images/epg-screen.png"
+                  class="work__image"
+                  alt="Project 1"
+                />
+              </div>
+            </div>
+
+            <div class="work__box">
+              <div class="work__text">
+                <h3>DataLeader</h3>
+                <p>
+                  DataLeader was built to provide financial advisors and other
+                  business owners marketing resources and the ability to target
+                  specific areas with reliable data. This is an ASP.Net
+                  application using Entity Framework and Web API to pull
+                  demographic data from a third party source.
+                </p>
+                <ul class="work__list">
+                  <li>ASP.Net</li>
+                  <li>Web API</li>
+                  <li>MSSQL Server</li>
+                  <li>Entity Framework</li>
+                  <li>C#</li>
+                  <li>Javascript</li>
+                  <li>Bootstrap</li>
+                </ul>
+
+                <div class="work__links">
+                  <a
+                    href="https://DataLeader.com/"
+                    target="_blank"
+                    class="link__text"
+                  >
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <!-- <a
+                    href="https://github.com/jweaver156/Vanilla-Javascipt-Projects/tree/main/WhatIsOutThere"
+                    title="View Source Code"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/github.svg"
+                      class="work__code"
+                      alt="GitHub"
+                    />
+                  </a> -->
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="./images/DL-Screen.png"
+                  class="work__image"
+                  alt="Project 1"
+                />
+              </div>
+            </div>
+
+            <div class="work__box">
+              <div class="work__text">
+                <h3>PostcardsPLUS</h3>
+                <p>
+                  PostcardsPLUS is an e-commerce web to print platform designed
+                  to enable business owners the ability to market to their
+                  audience using our custom postcard templates or for the user
+                  to design their own designs. An ASP.Net application utilizing
+                  Entity Framework with SQL Server stored procedures for
+                  back-end processing.
+                </p>
+                <ul class="work__list">
+                  <li>ASP.Net</li>
+                  <li>MSSQL Server</li>
+                  <li>Web API</li>
+                  <li>Entity Framework</li>
+                  <li>C#</li>
+                  <li>jQuery</li>
+                </ul>
+
+                <div class="work__links">
+                  <a
+                    href="https://postcardsplus.com"
+                    target="_blank"
+                    class="link__text"
+                  >
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <!-- <a
+                    href="https://github.com/jweaver156/Vanilla-Javascipt-Projects/tree/main/ProTrac"
+                  >
+                    <img
+                      src="./images/github.svg"
+                      class="work__code"
+                      title="View Source Code"
+                      alt="GitHub"
+                    />
+                  </a> -->
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="./images/PCP-Screen.png"
+                  class="work__image"
+                  alt="Project 1"
+                />
+              </div>
+            </div>
+
+            <!-- <div class="work__box">
+              <div class="work__text">
+                <h3>Box-Pong</h3>
+                <p>
+                  Here we have a new spin on the classic Atari pong game
+                  shifting the UI vertically with the objective of knocking out
+                  all the blocks before the ball hits the ground. Very fun and
+                  surpisingly challenging.
+                </p>
+                <ul class="work__list">
+                  <li>Javascript</li>
+                  <li>CSS</li>
+                  <li>HTML</li>
+                  <li>Canvus API</li>
+                </ul>
+
+                <div class="work__links">
+                  <a href="https://box-pong.netlify.app/" class="link__text">
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <a
+                    href="https://github.com/jweaver156/Vanilla-Javascipt-Projects/tree/main/BoxPong"
+                  >
+                    <img
+                      src="./images/github.svg"
+                      class="work__code"
+                      title="View Source Code"
+                      alt="GitHub"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="./images/boxpong.png"
+                  class="work__image"
+                  alt="Project 3"
+                />
+              </div>
+            </div>
+
+            <div class="work__box">
+              <div class="work__text">
+                <h3>Retro-Guess-Game</h3>
+                <p>
+                  This retro themed project was one of my first games I
+                  programed in Javascript. The user simply randomly guesses a
+                  number 1-20 and tries to get the highest score but guessing
+                  the number in the least amount of times as possible.
+                </p>
+                <ul class="work__list">
+                  <li>JavaScript</li>
+                  <li>CSS</li>
+                  <li>HTML</li>
+                </ul>
+
+                <div class="work__links">
+                  <a
+                    href="https://retro-guessing-game.netlify.app/"
+                    target="_blank"
+                    class="link__text"
+                  >
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <a
+                    href="https://github.com/jweaver156/Vanilla-Javascipt-Projects/tree/main/Retro-Guess-Game"
+                    title="View Source Code"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/github.svg"
+                      class="work__code"
+                      alt="GitHub"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="./images/RetroGuess.png"
+                  class="work__image"
+                  alt="Project 1"
+                />
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </section>
+
+      <!-- ***** About ***** -->
+
+      <section class="about" id="about">
+        <div class="row">
+          <h2>About Me</h2>
+          <div class="about__content">
+            <div class="about__text">
+              <!-- Replace the below paragraph with info about yourself -->
+              <p>
+                Currently, I am a software developer working at ProspectsPLUS!
+                in Bradenton, FL and have been since 2021. After breaking into
+                the industry and developing my skill over the last few years,
+                I've realized how fortunate I am to work professionally at
+                something that I truly enjoying while having the ability to
+                provide a great life for my family. The deeper my understanding
+                becomes, the more fasinated I am with the intricacy of the
+                process. All things combined, I know that I have the drive to
+                accomplish any task that is set in front of me.
+
+                <!-- It has been a long road in hindsight to get where I'm at. Years
+                of school learning material I wasn't sure I loved or even if the
+                field of study would be something I'd be excited to do with
+                myself. Fortunately, I kept looking until I found something I
+                could really gravitate towards, finding an environment I could
+                thrive in. Having the opportunity to find a creative space to
+                explore and challenge myself is one of the many reasons why I'm
+                eager and look forward to developing. Growing with my family and
+                even teaching my little one the art is another. I'm excited to
+                wake up with no idea how to find solutions and tackle them. This
+                is rewarding, this is fun. -->
+              </p>
+              <!-- Provide a link to your resume -->
+              <a
+                href="https://drive.google.com/file/d/1JD4WPDBn5aEmtjhhIaD7cV1am6YHCCWa/view?usp=sharing"
+                class="btn"
+                >My Resume</a
+              >
+            </div>
+
+            <div class="about__photo-container">
+              <!-- Add a nice photo of yourself -->
+              <img class="about__photo" src="./images/newProPic.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ***** Contact ***** -->
+
+    <section class="contact" id="contact">
+      <div class="row">
+        <h2>Get in Touch</h2>
+        <div class="contact__info">
+          <p>
+            Thank you for your time and consideration. Please feel free to reach
+            out for any reason. I have my email linked directly below, as well
+            as my LinkedIn. I look forward to hearing from you soon.
+          </p>
+          <!-- Replace the email with yours -->
+          <a href="mailto:johnweaver@zohomail.com" class="btn"
+            >Johnweaver@zohomail.com</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Footer ***** -->
+
+    <footer role="contentinfo" class="footer">
+      <div class="row">
+        <!-- Update the links to point to your accounts -->
+        <ul class="footer__social-links">
+          <li class="footer__social-link-item">
+            <a href="https://www.linkedin.com/in/john-w-weaver/">
+              <img
+                src="./images/linkedin.svg"
+                title="Link to Linkedin Profile"
+                class="footer__social-image"
+                alt="Linkedin"
+              />
+            </a>
+          </li>
+          <!-- <li class="footer__social-link-item">
+            <a
+              href="https://github.com/jweaver156"
+              title="Link to Github Profile"
+            >
+              <img
+                src="./images/github.svg"
+                class="footer__social-image"
+                alt="Github"
+              />
+            </a>
+          </li>
+          <li class="footer__social-link-item">
+            <a
+              href="https://codepen.io/Jweaver156"
+              title="Link to Codepen Profile"
+            >
+              <img
+                src="./images/codepen.svg"
+                class="footer__social-image"
+                alt="Codepen"
+              />
+            </a>
+          </li>
+          <li class="footer__social-link-item">
+            <a
+              href="https://twitter.com/John74883338"
+              title="Link to Twitter Profile"
+            >
+              <img
+                src="./images/twitter.svg"
+                class="footer__social-image"
+                alt="Twitter"
+              />
+            </a>
+          </li> -->
+        </ul>
+      </div>
+    </footer>
+
+    <a href="#top" class="back-to-top" title="Back to Top">
+      <img
+        src="./images/arrow-up.svg"
+        alt="Back to Top"
+        class="back-to-top__image"
+      />
+    </a>
+    <script src="./index.js"></script>
+  </body>
+</html>
