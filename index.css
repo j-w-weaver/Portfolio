@@ -615,6 +615,6 @@ body:not(.user-is-tabbing) a:focus {
 
 @media screen and (max-width: 480px) {
   .header__text {
-    margin-left: 3.2em;
+    margin-left: 3.5em;
   }
 }
