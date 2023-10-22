@@ -612,3 +612,9 @@ body:not(.user-is-tabbing) a:focus {
     padding: var(--gutter-medium) 0;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .header__text {
+    margin-left: 3.2em;
+  }
+}
